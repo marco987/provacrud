@@ -19,23 +19,23 @@
             <option value="
                 @switch($reparto)
                     @case("Marketing")
-                    '1'
+                    1
                     @break
 
                     @case("SEO")
-                    '2'
+                    2
                     @break
 
                     @case("Social")
-                    '3'
+                    3
                     @break
 
                     @case("Design")
-                    '4'
+                    4
                     @break
 
                     @case("Development")
-                    '5'
+                    5
                     @break
 
                     @default

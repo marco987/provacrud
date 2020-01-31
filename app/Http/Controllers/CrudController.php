@@ -60,7 +60,6 @@ class CrudController extends Controller
      */
     public function store(Request $request)
     {
-        dd($request);
         $dati = $request -> validate([
             'matricola' => 'required',
             'nome' => 'required',
