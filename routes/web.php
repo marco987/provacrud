@@ -13,3 +13,5 @@ Route::get('/employee/edit/{id}', 'CrudController@edit')->name('edit.employee');
 Route::post('/employee/update/{id}', 'CrudController@update')->name('update.employee');
 
 Route::get('/employee/destroy/{id}', 'CrudController@destroy')->name('destroy.employee');
+
+Route::get('/employee/drawing', 'CrudController@drawing')->name('drawing');

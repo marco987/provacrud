@@ -2,8 +2,9 @@
 
 @section('content')
 
-    <h2 style="text-align:center">Lista dipendenti</h2>
+    <h2 style="text-align:center">LISTA DIPENDENTI</h2>
     <h4 style="text-align:center"><a href="{{Route('create.employee')}}">Inserisci nuovo dipendente</a></h4>
+    <h4 style="text-align:center"><a href="{{Route('drawing')}}">ESTRAZIONE Lotteria</a></h4>
 
     @foreach ($employees as $employee)
         <div>
